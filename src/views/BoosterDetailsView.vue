@@ -119,7 +119,7 @@ async function calculateSheetDetails() {
       const chunk = cardEntries.slice(j, j + chunkSize);
       
       chunk.forEach(([uuid, weight]) => {
-        const cardInfo = store.identifierIndex[uuid];
+        const cardInfo = cardIndex.value[uuid];
         const priceNode = store.priceIndex[uuid];
         // CRITICAL: Pass explicit 'normal' for non-foil sheets to avoid foil price fallback
         const price = pickLatestPrice(priceNode, {
@@ -472,11 +472,18 @@ const cardsInMultipleBoosters = computed(() => {
   return cardLocations;
 });
 
+const cardIndex = computed(() => {
+  const cards = store.setDetail?.cards ?? [];
+  return cards.reduce((acc, card) => {
+    acc[card.uuid] = card;
+    return acc;
+  }, {});
+});
+
 onMounted(async () => {
   await store.loadSetList();
   if (selectedSet.value) {
     await store.setSelectedSet(selectedSet.value);
-    await store.ensureIdentifiers();
     await store.ensurePriceIndex();
   }
 });
@@ -506,15 +513,14 @@ watch(
   () => [store.setDetail, selectedBoosterType.value, evMinPrice.value],
   async () => {
     if (store.setDetail && selectedBoosterType.value) {
-      await store.ensureIdentifiers();
       await store.ensurePriceIndex();
-      
+
       // Reset data
       sheetDetailsData.value = [];
       layoutDetailsData.value = [];
       detailedCalculationsData.value = [];
       layoutCalculationsData.value = [];
-      
+
       // Calculate progressively
       await calculateSheetDetails();
       await calculateLayoutDetails();

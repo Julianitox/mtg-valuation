@@ -37,9 +37,7 @@ export const useMtgStore = defineStore('mtg', {
     setDetail: null,
     detailLoading: false,
     detailError: '',
-    identifiersLoaded: false,
-    identifierIndex: {},
-    cardsBySet: {},
+    setCardsCache: {},
     priceIndexLoaded: false,
     priceIndex: {},
     priceCache: {},
@@ -162,6 +160,10 @@ export const useMtgStore = defineStore('mtg', {
           ttlMs: SIX_HOURS_MS,
         });
         this.setDetail = payload.data ?? null;
+        const normalized = code.toUpperCase();
+        if (this.setDetail?.cards) {
+          this.setCardsCache[normalized] = this.setDetail.cards;
+        }
       } catch (error) {
         this.detailError = `Missing file: public/mtgjson/sets/${code.toUpperCase()}.json`;
         this.boosterValuations = [];
@@ -171,51 +173,27 @@ export const useMtgStore = defineStore('mtg', {
     },
 
     /**
-     * Loads and indexes all card identifiers from MTGJSON
-     * Creates two indexes:
-     * - identifierIndex: UUID -> card info
-     * - cardsBySet: setCode -> array of cards
+     * Loads card data for a specific set and caches it for reuse
+     * @param {string} code - Set code (e.g., 'MH3')
+     * @returns {Promise<Array>} - Array of card objects for the set
      */
-    async ensureIdentifiers() {
-      if (this.identifiersLoaded) return;
+    async getCardsForSet(code) {
+      const normalized = code?.toUpperCase();
+      if (!normalized) return [];
 
-      // Load AllIdentifiers.json (contains all cards)
-      const payload = await fetchLocalJson('AllIdentifiers.json', {
-        ttlMs: 12 * 60 * 60 * 1000, // Cache for 12 hours
+      if (this.setCardsCache[normalized]) {
+        return this.setCardsCache[normalized];
+      }
+
+      const payload = await fetchLocalSet(normalized, {
+        ttlMs: SIX_HOURS_MS,
       }).catch(() => {
-        throw new Error('Missing file: public/mtgjson/AllIdentifiers.json');
+        throw new Error(`Missing file: public/mtgjson/sets/${normalized}.json`);
       });
 
-      const liteIndex = {};
-      const grouped = {};
-
-      // Process each card and create indexes
-      Object.entries(payload.data ?? {}).forEach(([uuid, card]) => {
-        const setCode = card.setCode?.toUpperCase();
-        if (!setCode) return;
-
-        // Create lightweight card object
-        const lite = {
-          uuid,
-          setCode,
-          name: card.name,
-          rarity: card.rarity ?? 'unknown',
-          number: card.number,
-          types: card.types ?? [],
-          manaValue: card.manaValue ?? null,
-        };
-
-        // Index by UUID
-        liteIndex[uuid] = lite;
-
-        // Group by set code
-        if (!grouped[setCode]) grouped[setCode] = [];
-        grouped[setCode].push(lite);
-      });
-
-      this.identifierIndex = liteIndex;
-      this.cardsBySet = grouped;
-      this.identifiersLoaded = true;
+      const cards = payload.data?.cards ?? [];
+      this.setCardsCache[normalized] = cards;
+      return cards;
     },
 
     /**
@@ -263,11 +241,10 @@ export const useMtgStore = defineStore('mtg', {
 
       try {
         // Load required data
-        await this.ensureIdentifiers();
         await this.ensurePriceIndex();
 
         // Get all cards for this set
-        const cards = this.cardsBySet[normalized] ?? [];
+        const cards = await this.getCardsForSet(normalized);
 
         // Build price table rows
         const rows = cards.map((card) => {
