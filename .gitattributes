@@ -1,0 +1,2 @@
+public/mtgjson/**/*.json filter=lfs diff=lfs merge=lfs -text
+tmp-znr.json filter=lfs diff=lfs merge=lfs -text
