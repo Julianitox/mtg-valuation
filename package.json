@@ -6,8 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npm run lfs:pull && vite build",
+    "preview": "vite preview",
+    "lfs:fetch": "git lfs fetch --all",
+    "lfs:checkout": "git lfs checkout",
+    "lfs:pull": "git lfs pull"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",

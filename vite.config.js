@@ -9,4 +9,7 @@ export default defineConfig({
   define: {
     __BUILD_TIME__: JSON.stringify(buildTime),
   },
+  build: {
+    chunkSizeWarningLimit: 1500, // Increase limit to 1500 KB (1.5 MB) to reduce warnings
+  },
 });
