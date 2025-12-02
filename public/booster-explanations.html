@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explication Détaillée : Calculs de Boosters MTGJSON</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f9fafb;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+        }
+
+        h1 {
+            color: #1f2937;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 1rem;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #1f2937;
+            font-size: 1.8rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            border-left: 4px solid #3b82f6;
+        }
+
+        h3 {
+            color: #374151;
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h4 {
+            color: #4b5563;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            padding: 1.5rem;
+            background: #f9fafb;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .step {
+            background: white;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .step-number {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+
+        code {
+            background: #f3f4f6;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #dc2626;
+        }
+
+        pre {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        pre code {
+            background: transparent;
+            color: #f9fafb;
+            padding: 0;
+        }
+
+        .formula {
+            background: #eff6ff;
+            border: 2px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+            text-align: center;
+            font-family: 'Monaco', monospace;
+        }
+
+        .example {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .example-title {
+            font-weight: bold;
+            color: #92400e;
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight {
+            background: #fef3c7;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .visual-box {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .visual-box h4 {
+            margin-top: 0;
+            color: #3b82f6;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-value {
+            font-size: 1.2rem;
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        .calculation-step {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+        }
+
+        .calculation-step::before {
+            content: "→ ";
+            color: #0ea5e9;
+            font-weight: bold;
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .reference {
+            background: #f3f4f6;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            border-left: 4px solid #6b7280;
+        }
+
+        .reference a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .reference a:hover {
+            text-decoration: underline;
+        }
+
+        .summary-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .summary-box h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .summary-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .summary-box li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .summary-box li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            background: white;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background: #f3f4f6;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        tr:hover {
+            background: #f9fafb;
+        }
+
+        .positive {
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        .negative {
+            color: #ef4444;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Explication Détaillée : Calculs de Boosters MTGJSON</h1>
+        <p class="subtitle">Comprendre pas à pas comment l'Expected Value (EV) d'un booster est calculé</p>
+
+        <div class="reference">
+            <strong>📚 Référence :</strong> 
+            <a href="https://mtgjson.com/data-models/booster/" target="_blank">Documentation MTGJSON - Booster</a>
+        </div>
+
+        <!-- Section 1: Structure Globale -->
+        <div class="section">
+            <h2>1. Structure Globale d'un Booster MTGJSON</h2>
+            
+            <p>Selon la <a href="https://mtgjson.com/data-models/booster/" target="_blank">documentation MTGJSON</a>, un booster est une structure de données contenant des configurations de booster. Chaque set peut avoir plusieurs types de boosters (draft, set, collector, etc.).</p>
+
+            <div class="visual-box">
+                <h4>Structure dans le JSON</h4>
+                <pre><code>{
+  "data": {
+    "booster": {
+      "draft": {
+        "sheets": { ... },           // Feuilles de cartes avec probabilités
+        "boosters": [ ... ],         // Layouts possibles
+        "boostersTotalWeight": 444   // Poids total pour normalisation
+      },
+      "set": { ... },
+      "collector": { ... }
+    }
+  }
+}</code></pre>
+            </div>
+
+            <div class="example">
+                <div class="example-title">Exemple réel (Zendikar Rising)</div>
+                <p>Types disponibles : <code>['arena', 'collector', 'draft', 'prerelease', 'set', 'theme-b', ...]</code></p>
+                <p>Chaque type a sa propre structure de sheets et layouts.</p>
+            </div>
+        </div>
+
+        <!-- Section 2: Les Sheets -->
+        <div class="section">
+            <h2>2. Les Sheets (Feuilles de Cartes)</h2>
+
+            <h3>Définition</h3>
+            <p>Une <span class="highlight">sheet</span> est une collection de cartes avec leurs poids relatifs. Chaque carte a un poids qui détermine sa probabilité d'apparaître dans cette sheet.</p>
+
+            <div class="visual-box">
+                <h4>Structure d'une Sheet</h4>
+                <pre><code>{
+  "commonWithShowcase": {
+    "cards": {
+      "uuid-carte-1": 3,    // Poids de la carte 1
+      "uuid-carte-2": 3,    // Poids de la carte 2
+      ...
+    },
+    "totalWeight": 303,     // Somme de tous les poids
+    "foil": false,          // Si la sheet contient des foils
+    "balanceColors": true   // Si les couleurs doivent être équilibrées
+  }
+}</code></pre>
+            </div>
+
+            <div class="example">
+                <div class="example-title">Exemple Concret (ZNR - commonWithShowcase)</div>
+                <ul>
+                    <li><strong>Nombre de cartes</strong> : 110 cartes différentes</li>
+                    <li><strong>Total weight</strong> : 303</li>
+                    <li><strong>Foil</strong> : false</li>
+                    <li><strong>Poids par carte</strong> : Généralement 3 (mais peut varier)</li>
+                </ul>
+                <p><strong>Signification</strong> : Si une carte a un poids de 3 sur un total de 303, sa probabilité d'apparaître dans cette sheet est de <code>3/303 ≈ 0.99%</code>.</p>
+            </div>
+        </div>
+
+        <!-- Section 3: Les Layouts -->
+        <div class="section">
+            <h2>3. Les Boosters (Layouts)</h2>
+
+            <h3>Définition</h3>
+            <p>Un <span class="highlight">layout</span> (ou booster) définit une combinaison spécifique de sheets. Un type de booster peut avoir plusieurs layouts possibles, chacun avec un poids qui détermine sa probabilité.</p>
+
+            <div class="visual-box">
+                <h4>Structure d'un Layout</h4>
+                <pre><code>{
+  "contents": {
+    "basic": 1,                        // 1 carte de la sheet "basic"
+    "commonWithShowcase": 10,         // 10 cartes de la sheet "commonWithShowcase"
+    "dfcRareMythicWithShowcase": 1,   // 1 carte de la sheet "dfcRareMythicWithShowcase"
+    "sfcUncommonWithShowcase": 3      // 3 cartes de la sheet "sfcUncommonWithShowcase"
+  },
+  "weight": 54                        // Poids de ce layout (probabilité relative)
+}</code></pre>
+            </div>
+
+            <div class="example">
+                <div class="example-title">Exemple Concret (ZNR - Draft Booster)</div>
+                
+                <div class="card">
+                    <div class="card-title">Layout #1</div>
+                    <ul>
+                        <li><strong>Poids</strong> : 54</li>
+                        <li><strong>Contenu</strong> :
+                            <ul>
+                                <li>1× basic</li>
+                                <li>10× commonWithShowcase</li>
+                                <li>1× dfcRareMythicWithShowcase</li>
+                                <li>3× sfcUncommonWithShowcase</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Layout #2</div>
+                    <ul>
+                        <li><strong>Poids</strong> : 27</li>
+                        <li><strong>Contenu</strong> :
+                            <ul>
+                                <li>1× basic</li>
+                                <li>9× commonWithShowcase</li>
+                                <li>1× dfcRareMythicWithShowcase</li>
+                                <li>1× foilWithShowcase (foil !)</li>
+                                <li>3× sfcUncommonWithShowcase</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <p><strong>Poids total</strong> : 444</p>
+                <p><strong>Probabilité du Layout #1</strong> : <code>54/444 ≈ 12.16%</code></p>
+                <p><strong>Probabilité du Layout #2</strong> : <code>27/444 ≈ 6.08%</code></p>
+            </div>
+        </div>
+
+        <!-- Section 4: Calcul de l'EV -->
+        <div class="section">
+            <h2>4. Calcul Pas à Pas de l'EV (Expected Value)</h2>
+
+            <div class="step">
+                <span class="step-number">1</span>
+                <h3>Calcul de l'EV d'une Sheet</h3>
+                
+                <p>Pour chaque sheet, on calcule la valeur attendue d'une carte tirée de cette sheet.</p>
+
+                <div class="formula">
+                    EV_sheet = Σ (prix_carte × poids_carte / totalWeight_sheet)
+                </div>
+
+                <div class="example">
+                    <div class="example-title">Exemple avec la sheet "commonWithShowcase"</div>
+                    
+                    <p>Supposons qu'on ait 3 cartes :</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Carte</th>
+                                <th>Poids</th>
+                                <th>Prix</th>
+                                <th>Contribution</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Carte A</td>
+                                <td>3</td>
+                                <td>0.10€</td>
+                                <td>3/303 × 0.10€ = 0.000990€</td>
+                            </tr>
+                            <tr>
+                                <td>Carte B</td>
+                                <td>3</td>
+                                <td>0.15€</td>
+                                <td>3/303 × 0.15€ = 0.001485€</td>
+                            </tr>
+                            <tr>
+                                <td>Carte C</td>
+                                <td>3</td>
+                                <td>0.05€</td>
+                                <td>3/303 × 0.05€ = 0.000495€</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><strong>Total (pour toutes les 110 cartes)</strong></td>
+                                <td><strong>EV_commonWithShowcase</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="calculation-step">
+                    On fait ça pour toutes les cartes de la sheet et on additionne toutes les contributions.
+                </div>
+
+                <div class="visual-box">
+                    <h4>Dans le code (buildBoosterValuations, lignes 244-272)</h4>
+                    <pre><code>Object.entries(cards).forEach(([uuid, weight]) => {
+  const price = getPrice(uuid, sheetConfig.foil ? 'foil' : undefined);
+  const value = price?.value ?? 0;
+  expectedValue += (weight / totalWeight) * value;
+});</code></pre>
+                </div>
+
+                <div class="example">
+                    <div class="example-title">Points importants</div>
+                    <ul>
+                        <li>Si <code>minPrice</code> est configuré et qu'une carte a un prix &lt; minPrice, sa valeur est mise à 0</li>
+                        <li>On utilise le prix foil si la sheet contient des foils (<code>sheetConfig.foil === true</code>)</li>
+                        <li>La devise est déterminée par la première carte qui a un prix</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">2</span>
+                <h3>Calcul de l'EV d'un Layout</h3>
+                
+                <p>Pour chaque layout, on multiplie la quantité de chaque sheet par son EV.</p>
+
+                <div class="formula">
+                    EV_layout = Σ (quantité_sheet × EV_sheet)
+                </div>
+
+                <div class="example">
+                    <div class="example-title">Exemple</div>
+                    
+                    <p>Supposons qu'on ait calculé :</p>
+                    <ul>
+                        <li>EV_basic = 0.00€ (terrain de base)</li>
+                        <li>EV_commonWithShowcase = 0.50€</li>
+                        <li>EV_dfcRareMythicWithShowcase = 2.00€</li>
+                        <li>EV_sfcUncommonWithShowcase = 0.15€</li>
+                    </ul>
+
+                    <p>Pour le Layout #1 (10× common, 1× rare, 3× uncommon, 1× basic) :</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sheet</th>
+                                <th>Quantité</th>
+                                <th>EV_sheet</th>
+                                <th>Calcul</th>
+                                <th>Résultat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>basic</td>
+                                <td>1</td>
+                                <td>0.00€</td>
+                                <td>1 × 0.00</td>
+                                <td>0.00€</td>
+                            </tr>
+                            <tr>
+                                <td>commonWithShowcase</td>
+                                <td>10</td>
+                                <td>0.50€</td>
+                                <td>10 × 0.50</td>
+                                <td>5.00€</td>
+                            </tr>
+                            <tr>
+                                <td>dfcRareMythicWithShowcase</td>
+                                <td>1</td>
+                                <td>2.00€</td>
+                                <td>1 × 2.00</td>
+                                <td>2.00€</td>
+                            </tr>
+                            <tr>
+                                <td>sfcUncommonWithShowcase</td>
+                                <td>3</td>
+                                <td>0.15€</td>
+                                <td>3 × 0.15</td>
+                                <td>0.45€</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><strong>EV_layout1</strong></td>
+                                <td><strong>7.45€</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="visual-box">
+                    <h4>Dans le code (lignes 281-283)</h4>
+                    <pre><code>const layoutValue = Object.entries(layout.contents ?? {}).reduce(
+  (sum, [sheetName, qty]) =>
+    sum + qty * (sheetExpectations[sheetName]?.expectedValue ?? 0),
+  0,
+);</code></pre>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">3</span>
+                <h3>Calcul de l'EV Final du Booster</h3>
+                
+                <p>On fait une moyenne pondérée de tous les layouts.</p>
+
+                <div class="formula">
+                    EV_booster = Σ (EV_layout × poids_layout) / poids_total
+                </div>
+
+                <div class="example">
+                    <div class="example-title">Exemple</div>
+                    
+                    <p>Supposons qu'on ait :</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Layout</th>
+                                <th>Poids</th>
+                                <th>EV_layout</th>
+                                <th>Calcul</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Layout #1</td>
+                                <td>54</td>
+                                <td>7.45€</td>
+                                <td>7.45 × 54 = 402.30</td>
+                            </tr>
+                            <tr>
+                                <td>Layout #2</td>
+                                <td>27</td>
+                                <td>6.50€</td>
+                                <td>6.50 × 27 = 175.50</td>
+                            </tr>
+                            <tr>
+                                <td>Layout #3</td>
+                                <td>200</td>
+                                <td>7.20€</td>
+                                <td>7.20 × 200 = 1440.00</td>
+                            </tr>
+                            <tr>
+                                <td>Layout #4</td>
+                                <td>163</td>
+                                <td>7.10€</td>
+                                <td>7.10 × 163 = 1157.30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><strong>Total</strong></td>
+                                <td></td>
+                                <td><strong>3174.10</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><strong>Poids total</strong></td>
+                                <td><strong>444</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><strong>EV_booster</strong></td>
+                                <td><strong>3174.10 / 444 = 7.15€</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="visual-box">
+                    <h4>Dans le code (lignes 275-287)</h4>
+                    <pre><code>const totalLayoutWeight = layouts.reduce(
+  (sum, layout) => sum + (layout.weight ?? 1),
+  0,
+);
+
+let aggregatedValue = 0;
+layouts.forEach((layout) => {
+  const layoutValue = /* calculé à l'étape 2 */;
+  aggregatedValue += layoutValue * (layout.weight ?? 1);
+});
+
+const averageValue = totalLayoutWeight > 0
+  ? aggregatedValue / totalLayoutWeight
+  : /* fallback si pas de poids */;</code></pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: Prix Minimum -->
+        <div class="section">
+            <h2>5. Gestion des Prix Minimum</h2>
+
+            <p>Si un prix minimum est configuré (ex: 1€), toutes les cartes avec un prix &lt; minPrice comptent comme 0€ dans le calcul.</p>
+
+            <div class="visual-box">
+                <h4>Dans le code (lignes 228-238)</h4>
+                <pre><code>const getPrice = (uuid, preferredFinish) => {
+  const price = pickLatestPrice(this.priceIndex[uuid], { preferredFinish }) || null;
+  if (price && price.value < minPrice) {
+    return { ...price, value: 0 };  // Mise à 0 si < minPrice
+  }
+  return price;
+};</code></pre>
+            </div>
+
+            <div class="example">
+                <div class="example-title">Impact</div>
+                <p>Cela permet de ne considérer que les cartes "significatives" dans le calcul d'EV, excluant les bulk cards.</p>
+            </div>
+        </div>
+
+        <!-- Section 6: Exemple Complet -->
+        <div class="section">
+            <h2>6. Exemple Complet avec Données Réelles</h2>
+
+            <div class="example">
+                <div class="example-title">Données d'entrée</div>
+                <ul>
+                    <li><strong>Set</strong> : Zendikar Rising (ZNR)</li>
+                    <li><strong>Type de booster</strong> : Draft</li>
+                    <li><strong>Prix minimum</strong> : 1.00€</li>
+                </ul>
+            </div>
+
+            <h3>Calculs</h3>
+
+            <div class="step">
+                <h4>1. Sheet "commonWithShowcase"</h4>
+                <ul>
+                    <li>110 cartes, totalWeight = 303</li>
+                    <li>Supposons que seulement 5 cartes valent &gt; 1€</li>
+                    <li>Exemple : Carte A (poids=3, prix=1.50€) → contribution = 3/303 × 1.50 = 0.0149€</li>
+                    <li>EV_commonWithShowcase = 0.10€ (exemple)</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <h4>2. Sheet "dfcRareMythicWithShowcase"</h4>
+                <ul>
+                    <li>20 cartes, totalWeight = 50</li>
+                    <li>Supposons que 15 cartes valent &gt; 1€</li>
+                    <li>Exemple : Carte X (poids=2, prix=5.00€) → contribution = 2/50 × 5.00 = 0.20€</li>
+                    <li>EV_dfcRareMythicWithShowcase = 2.50€ (exemple)</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <h4>3. Layout #1</h4>
+                <ul>
+                    <li>10× common (0.10€) + 1× rare (2.50€) + 3× uncommon (0.20€) + 1× basic (0€)</li>
+                    <li>EV_layout1 = 10×0.10 + 1×2.50 + 3×0.20 = 1.00 + 2.50 + 0.60 = <strong>4.10€</strong></li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <h4>4. EV Final</h4>
+                <ul>
+                    <li>Moyenne pondérée de tous les layouts</li>
+                    <li>Résultat : <strong>~4.50€</strong> (exemple)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 7: Visualisation -->
+        <div class="section">
+            <h2>7. Visualisation dans l'Interface</h2>
+
+            <p>Dans l'interface, vous pouvez :</p>
+
+            <ol>
+                <li><strong>Voir l'EV de chaque booster type</strong> dans le tableau principal</li>
+                <li><strong>Expander une ligne</strong> pour voir le détail par sheet :
+                    <ul>
+                        <li>Nom de la sheet</li>
+                        <li>EV par carte tirée de cette sheet</li>
+                        <li>Nombre de cartes référencées</li>
+                        <li>Indication si c'est une sheet foil</li>
+                    </ul>
+                </li>
+                <li><strong>Comparer avec le prix configuré</strong> :
+                    <ul>
+                        <li>Les prix proviennent de <code>trend-prices-config.json</code></li>
+                        <li>La différence (EV - Prix) indique si le booster est rentable</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Section 8: Points Clés -->
+        <div class="summary-box">
+            <h3>✅ Points Clés à Retenir</h3>
+            <ul>
+                <li><strong>Les sheets</strong> définissent les probabilités de chaque carte</li>
+                <li><strong>Les layouts</strong> définissent les combinaisons possibles de sheets</li>
+                <li><strong>L'EV d'une sheet</strong> = moyenne pondérée des prix des cartes</li>
+                <li><strong>L'EV d'un layout</strong> = somme des (quantité × EV_sheet)</li>
+                <li><strong>L'EV du booster</strong> = moyenne pondérée des EV_layouts</li>
+                <li><strong>Le prix minimum</strong> permet d'exclure les bulk cards</li>
+                <li><strong>Les foils</strong> sont gérés séparément avec leurs propres prix</li>
+            </ul>
+        </div>
+
+        <!-- Section 9: Références -->
+        <div class="section">
+            <h2>8. Références du Code</h2>
+
+            <ul>
+                <li><strong>Calcul des valuations</strong> : <code>src/stores/mtgStore.js</code> → <code>buildBoosterValuations()</code> (lignes 225-295)</li>
+                <li><strong>Extraction des prix</strong> : <code>src/utils/priceExtractors.js</code> → <code>pickLatestPrice()</code></li>
+                <li><strong>Affichage</strong> : <code>src/views/DashboardView.vue</code> → Section "Booster expected value"</li>
+            </ul>
+        </div>
+
+        <div class="reference" style="margin-top: 3rem; text-align: center;">
+            <p><em>Document généré le 2025-01-27</em></p>
+            <p><a href="/">← Retour à l'application</a></p>
+        </div>
+    </div>
+</body>
+</html>
+

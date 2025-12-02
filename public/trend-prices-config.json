@@ -1,0 +1,3929 @@
+{
+    "trendPrices": {
+        "P15A": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PHTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PH23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P30T": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "30A": {
+            "draft": 0.0
+        },
+        "P30H": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P30M": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P30A": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AFR": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AAFR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MAFR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAFR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AER": {
+            "draft": 0.0
+        },
+        "PAER": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DFT": {
+            "play": 3.35
+        },
+        "ADFT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DRC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDFT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ARB": {
+            "draft": 0.0
+        },
+        "PARB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HBG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YDFT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YBLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YDSK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YEOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YMID": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YLCI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YNEO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YMKM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YSNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YOTJ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YTDM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "YWOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ALL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AKH": {
+            "draft": 0.0
+        },
+        "MP2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAKH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AKR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ATH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ATQ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "APC": {
+            "draft": 0.0
+        },
+        "PAPC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ARN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ARC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OARC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "E01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OE01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AA1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AA2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AA3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AA4": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ANB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PARL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL99": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL00": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL05": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAL06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ANA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OANA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "XANA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PALP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ACR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AACR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MACR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PAST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AVR": {
+            "draft": 0.0
+        },
+        "PAVR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TLA": {
+            "play": 4.79
+        },
+        "FTLA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TLE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JTLA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ATLA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSS1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BRB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ACLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OCLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BFZ": {
+            "draft": 0.0
+        },
+        "PBFZ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TBTH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BBD": {
+            "draft": 0.0
+        },
+        "PBBD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BTD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BOK": {
+            "draft": 0.0
+        },
+        "PBOK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PUNK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BLB": {
+            "play": 5.11
+        },
+        "ABLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BLC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PBLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BNG": {
+            "draft": 0.0
+        },
+        "THP2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PBNG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OTP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCEL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q05": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q07": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CHK": {
+            "draft": 0.0
+        },
+        "PCHK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCMP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CHR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BCHR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "6ED": {
+            "draft": 0.0
+        },
+        "CSP": {
+            "draft": 0.0
+        },
+        "PCSP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CMD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCMD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OCMD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "C21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OC21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CMA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CM2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CC2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CC1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CMR": {
+            "draft": 0.0
+        },
+        "PCMR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CLB": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MCLB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CMM": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ACMM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CM1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OCM1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CON": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCON": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CNS": {
+            "draft": 0.0
+        },
+        "PCNS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CN2": {
+            "draft": 0.0
+        },
+        "M19": {
+            "draft": 0.0
+        },
+        "PM19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M20": {
+            "draft": 0.0
+        },
+        "PM20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M21": {
+            "draft": 0.0
+        },
+        "PM21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCBB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AVOW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "VOC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OVOC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLGM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DCI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DKA": {
+            "draft": 0.0
+        },
+        "PDKA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DST": {
+            "draft": 0.0
+        },
+        "PDST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DKM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TDAG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DIS": {
+            "draft": 0.0
+        },
+        "PDIS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WHO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DOM": {
+            "draft": 0.0
+        },
+        "PDOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DMR": {
+            "draft": 0.0
+        },
+        "DMU": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ADMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DMC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTDMU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "2XM": {
+            "draft": 0.0
+        },
+        "2X2": {
+            "draft": 0.0
+        },
+        "PDRC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DGM": {
+            "draft": 0.0
+        },
+        "PDGM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DTK": {
+            "draft": 0.0
+        },
+        "PDTK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DVD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EVG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GVL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JVC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DD3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDQ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDF": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DD1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDJ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DD2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TD2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DDP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DPA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDTP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDP10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDP12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDP13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDP14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDP15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DSK": {
+            "play": 3.99,
+            "collector": 30.66
+        },
+        "ADSK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DSC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PDSK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EOE": {
+            "play": 5.22
+        },
+        "AEOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EOC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PEOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EOS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "8ED": {
+            "draft": 0.0
+        },
+        "P8ED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EMN": {
+            "draft": 0.0
+        },
+        "PEMN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EMA": {
+            "draft": 0.0
+        },
+        "PEWK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PELP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EVE": {
+            "draft": 0.0
+        },
+        "PEVE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EXO": {
+            "draft": 0.0
+        },
+        "PEXO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EA1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EA2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "EA3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "E02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WFIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSS5": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TFTH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FEM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PIP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FRF": {
+            "draft": 0.0
+        },
+        "CP2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PFRF": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "5DN": {
+            "draft": 0.0
+        },
+        "P5DN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "5ED": {
+            "draft": 0.0
+        },
+        "FIN": {
+            "play": 6.57
+        },
+        "AFIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FIC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AFIC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PFIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RFIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FCA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FBB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FWB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AFC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OAFC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OAFR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FDN": {
+            "play": 4.21
+        },
+        "AFDN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FDC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FFDN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FJ25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PFDN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "4ED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "4BB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FNM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F05": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F07": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F08": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "F18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DRB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "V13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FUT": {
+            "draft": 0.0
+        },
+        "PFUT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GK1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PRWK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GDY": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GNT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GN2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GN3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GTC": {
+            "draft": 0.0
+        },
+        "PGTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GS1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PGPX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GPT": {
+            "draft": 0.0
+        },
+        "PGPT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GRN": {
+            "draft": 0.0
+        },
+        "PGRN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PGRU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PHUK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HHO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PHPR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "H17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA4": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA5": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA6": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HA7": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JP1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HML": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HOU": {
+            "draft": 0.0
+        },
+        "PHOU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PIDW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ICE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "IMA": {
+            "draft": 0.0
+        },
+        "IKO": {
+            "draft": 0.0
+        },
+        "PIKO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ISD": {
+            "draft": 0.0
+        },
+        "PISD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "INR": {
+            "play": 4.75
+        },
+        "AINR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "VOW": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MVOW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PVOW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SVOW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DBL": {
+            "draft": 0.0
+        },
+        "MID": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MMID": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMID": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SMID": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CEI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ITP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "INV": {
+            "draft": 0.0
+        },
+        "PINV": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "XLN": {
+            "draft": 0.0
+        },
+        "PXLN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJJT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJSC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JOU": {
+            "draft": 0.0
+        },
+        "THP3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJOU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JGP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G99": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G00": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G05": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G07": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G08": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJ21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JUD": {
+            "draft": 0.0
+        },
+        "PJUD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "JMP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FJ22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AJMP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FJMP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "J21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJAS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PJSE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSUS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "REX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "KLD": {
+            "draft": 0.0
+        },
+        "MPS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PKLD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "KLR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "KHM": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AKHM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "KHC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MKHM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PKHM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SKHM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "NEO": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MNEO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PNEO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SNEO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "KTK": {
+            "draft": 0.0
+        },
+        "PKTK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "L17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OLGC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PZ1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LEG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LGN": {
+            "draft": 0.0
+        },
+        "PLGN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LEA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LEB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LRW": {
+            "draft": 0.0
+        },
+        "ECL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLRW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLG20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLG21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLG22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLG24": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLG25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLNY": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PPC1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "G18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSS3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PPP1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WMKM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSS4": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WMOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PANA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M10": {
+            "draft": 0.0
+        },
+        "PM10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M11": {
+            "draft": 0.0
+        },
+        "PM11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M12": {
+            "draft": 0.0
+        },
+        "PM12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M13": {
+            "draft": 0.0
+        },
+        "PM13": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M14": {
+            "draft": 0.0
+        },
+        "PM14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M15": {
+            "draft": 0.0
+        },
+        "CP1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PM15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMOA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PRM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TD0": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ORI": {
+            "draft": 0.0
+        },
+        "CP3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PORI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MPR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PR2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P05": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P07": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P08": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS07": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS08": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS10": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMPS11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMDA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF20": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF24": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PF26": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MOM": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AMOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MOC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FMOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SMOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MAT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMAT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LMAR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MAR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SPM": {
+            "play": 3.59
+        },
+        "SPE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSPM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "A25": {
+            "draft": 0.0
+        },
+        "ME1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ME2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ME3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ME4": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMEI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MMQ": {
+            "draft": 0.0
+        },
+        "PMMQ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMIC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AMID": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MIC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OMIC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MIR": {
+            "draft": 0.0
+        },
+        "MRD": {
+            "draft": 0.0
+        },
+        "MBS": {
+            "draft": 0.0
+        },
+        "PMBS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMRD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MD1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MH1": {
+            "draft": 0.0
+        },
+        "H1R": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MH2": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AMH2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MMH2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMH2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "H2R": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MH3": {
+            "play": 8.76
+        },
+        "AMH3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "M3C": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMH3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SMH3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AMH1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMH1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MMA": {
+            "draft": 0.0
+        },
+        "MM2": {
+            "draft": 0.0
+        },
+        "MM3": {
+            "draft": 0.0
+        },
+        "MOR": {
+            "draft": 0.0
+        },
+        "PMOR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MGB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MUL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MKM": {
+            "play": 3.17
+        },
+        "AMKM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MKC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PMKM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MB1": {
+            "draft": 0.0
+        },
+        "MB2": {
+            "draft": 13.42
+        },
+        "CMB1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CMB2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PNAT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "NEM": {
+            "draft": 0.0
+        },
+        "PNEM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ANEO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "NEC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ASNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "NCC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PNCC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "NPH": {
+            "draft": 0.0
+        },
+        "PNPH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "9ED": {
+            "draft": 0.0
+        },
+        "P9ED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OGW": {
+            "draft": 0.0
+        },
+        "POGW": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ODY": {
+            "draft": 0.0
+        },
+        "PODY": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ONS": {
+            "draft": 0.0
+        },
+        "PONS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PHEL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OTJ": {
+            "play": 3.92
+        },
+        "AOTJ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "POTJ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "O90P": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OLEP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ONE": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ONC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PONE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PA1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q06": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "Q08": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PIO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLC": {
+            "draft": 0.0
+        },
+        "PPLC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "HOP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PC2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OPC2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OPCA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OHOP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PHOP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLS": {
+            "draft": 0.0
+        },
+        "PPLS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PWCS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "POR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PPTK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PD2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PD3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "H09": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PPRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PCY": {
+            "draft": 0.0
+        },
+        "PPCY": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "GK2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PRW2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RNA": {
+            "draft": 0.0
+        },
+        "PRNA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RVR": {
+            "draft": 5.5
+        },
+        "RAV": {
+            "draft": 0.0
+        },
+        "PRAV": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "CLU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FCLU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PRED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PRCQ": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PR23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "REN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RTR": {
+            "draft": 0.0
+        },
+        "PRTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "3ED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ROE": {
+            "draft": 0.0
+        },
+        "PROE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RQS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "RIX": {
+            "draft": 0.0
+        },
+        "PRIX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSAL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSDC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS14": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS15": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS18": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PS19": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SOK": {
+            "draft": 0.0
+        },
+        "PSOK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SOM": {
+            "draft": 0.0
+        },
+        "PSOM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SCG": {
+            "draft": 0.0
+        },
+        "PSCG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSSC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLU": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSDG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "7ED": {
+            "draft": 0.0
+        },
+        "SHM": {
+            "draft": 0.0
+        },
+        "PSHM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SIS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SOI": {
+            "draft": 0.0
+        },
+        "PSOI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SIR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ALA": {
+            "draft": 0.0
+        },
+        "PALA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SS3": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SS2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SS1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SPG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSPL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "S99": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "S00": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SCD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SCH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SNC": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MSNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTSNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ASTX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "STA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "STX": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MSTX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSTX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SSTX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "STH": {
+            "draft": 0.0
+        },
+        "PSTH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SUM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSVC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ALTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FLTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ALTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTKDF": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TDM": {
+            "play": 4.23
+        },
+        "ATDM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TDC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTDM": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TMT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TMC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PZA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TMP": {
+            "draft": 0.0
+        },
+        "PTMP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TPR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "10E": {
+            "draft": 0.0
+        },
+        "P10E": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BIG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PBIG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BRO": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ABRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BRC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "FBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BRR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SBRO": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "DRK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ULST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LTR": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MLTR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LCI": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ALCI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "LCC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PLCI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLCI": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "THS": {
+            "draft": 0.0
+        },
+        "THB": {
+            "draft": 0.0
+        },
+        "PTHB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "THP1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PTHS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ELD": {
+            "draft": 0.0
+        },
+        "PELD": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OM1": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OMB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TSP": {
+            "draft": 0.0
+        },
+        "PTSP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TSR": {
+            "draft": 0.0
+        },
+        "PTSR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TSB": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "TOR": {
+            "draft": 0.0
+        },
+        "PTOR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "BOT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PZ2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "P2HG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PURL": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UGIN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PUMA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UMA": {
+            "draft": 0.0
+        },
+        "UNF": {
+            "draft": 0.0
+        },
+        "SUNF": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UGL": {
+            "draft": 0.0
+        },
+        "UNH": {
+            "draft": 0.0
+        },
+        "PUNH": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SLX": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UNK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "2ED": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UND": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UST": {
+            "draft": 0.0
+        },
+        "PUST": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "UDS": {
+            "draft": 0.0
+        },
+        "PUDS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ULG": {
+            "draft": 0.0
+        },
+        "PULG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "USG": {
+            "draft": 0.0
+        },
+        "PUSG": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PVAN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "OVNT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "VMA": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "VIS": {
+            "draft": 0.0
+        },
+        "WWOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WAR": {
+            "draft": 0.0
+        },
+        "PWAR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "40K": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WTH": {
+            "draft": 0.0
+        },
+        "W16": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "W17": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WOE": {
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "AWOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WOC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PWOE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WOT": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW11": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW12": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW24": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PW25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PWOS": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC97": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC98": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC99": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC00": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC01": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC02": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC03": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WC04": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PWOR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WMC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "WWK": {
+            "draft": 0.0
+        },
+        "PWWK": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PSS2": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PXTC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PL24": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PL21": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PL23": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PL25": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PL22": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ZEN": {
+            "draft": 0.0
+        },
+        "EXP": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PZEN": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ZNR": {
+            "draft": 3.5,
+            "set": 4.0
+        },
+        "AZNR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ZNC": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "ZNE": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "MZNR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "PZNR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        },
+        "SZNR": {
+            "play": 0.0,
+            "draft": 0.0,
+            "set": 0.0
+        }
+    },
+    "defaultPrices": {
+        "play": 5.0,
+        "draft": 4.0,
+        "set": 4.5
+    }
+}
