@@ -17,7 +17,7 @@ import { useMtgStore } from '../stores/mtgStore.js';
 const store = useMtgStore();
 const config = ref({ trendPrices: {} });
 const loading = ref(false);
-const rankingYearsBack = ref(2);
+const rankingYearsBack = ref(3);
 
 /**
  * Compute all booster types that appear in the trend prices config
@@ -39,7 +39,8 @@ const trendPricesData = computed(() => {
   if (!boosterTypes.length) return rows;
 
   const cutoff = new Date();
-  cutoff.setFullYear(cutoff.getFullYear() - rankingYearsBack.value);
+  const effectiveYears = Math.min(rankingYearsBack.value, 3);
+  cutoff.setFullYear(cutoff.getFullYear() - effectiveYears);
   const now = new Date();
 
   sets.forEach((set) => {
@@ -127,12 +128,7 @@ onMounted(async () => {
       <ElCard shadow="never">
         <ElForm label-position="left" class="control-form" inline>
           <ElFormItem label="Ranking window (years)">
-            <ElInputNumber
-              v-model="rankingYearsBack"
-              :min="1"
-              :max="10"
-              controls-position="right"
-            />
+            <ElInputNumber v-model="rankingYearsBack" :min="1" :max="3" controls-position="right" />
           </ElFormItem>
         </ElForm>
       </ElCard>

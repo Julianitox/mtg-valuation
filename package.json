@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node scripts/generate-recent-prices.mjs && vite build",
+    "preview": "vite preview",
+    "prune:sets": "node scripts/prune-old-sets.mjs"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",

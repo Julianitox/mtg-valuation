@@ -26,7 +26,7 @@ import { useMtgStore } from '../stores/mtgStore.js';
 const store = useMtgStore();
 const boosterChoice = ref('');
 const evMinPrice = ref(0);
-const rankingYearsBack = ref(2);
+const rankingYearsBack = ref(3);
 
 const selectedSet = computed({
   get: () => store.selectedSetCode,

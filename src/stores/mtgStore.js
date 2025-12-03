@@ -10,7 +10,7 @@
  * - Provides price tables for individual cards within sets
  * 
  * Data Flow:
- * 1. Load base data (SetList, AllIdentifiers, AllPrices)
+ * 1. Load base data (SetList, recent price index)
  * 2. Select a set and load detailed set data
  * 3. Calculate sheet EVs (weighted average of card prices)
  * 4. Calculate layout EVs (sum of sheet quantities × sheet EVs)
@@ -60,7 +60,16 @@ export const useMtgStore = defineStore('mtg', {
      * Used for populating set selection dropdowns
      */
     setOptions(state) {
+      const now = new Date();
+      const cutoff = new Date(now);
+      cutoff.setFullYear(cutoff.getFullYear() - 3);
+
       return state.setList
+        .filter((set) => {
+          if (!set.releaseDate) return false;
+          const rd = new Date(set.releaseDate);
+          return !Number.isNaN(rd.getTime()) && rd >= cutoff;
+        })
         .slice()
         .sort((a, b) => {
           const dateA = new Date(a.releaseDate ?? '1970-01-01').getTime();
@@ -197,17 +206,18 @@ export const useMtgStore = defineStore('mtg', {
     },
 
     /**
-     * Loads the price index containing all card prices from MTGJSON
+     * Loads the price index containing card prices from a trimmed MTGJSON file
+     * (AllPricesRecent.json, generated at build time)
      * Structure: { uuid -> { paper: { cardmarket: { retail: { ... } } } } }
      * Only loaded once per session
      */
     async ensurePriceIndex() {
       if (this.priceIndexLoaded) return;
 
-      const payload = await fetchLocalJson('AllPricesToday.json', {
+      const payload = await fetchLocalJson('AllPricesRecent.json', {
         ttlMs: SIX_HOURS_MS,
       }).catch(() => {
-        throw new Error('Missing file: public/mtgjson/AllPricesToday.json');
+        throw new Error('Missing file: public/mtgjson/AllPricesRecent.json');
       });
 
       this.priceIndex = payload.data ?? {};
@@ -557,11 +567,14 @@ export const useMtgStore = defineStore('mtg', {
       const trendConfig = await this.loadTrendPricesConfig();
       this.trendPriceConfig = trendConfig;
 
-      await this.ensurePriceIndex();
+        await this.ensurePriceIndex();
+
+        // Clamp window: never include sets older than 3 years
+        const effectiveYears = Math.min(yearsBack, 3);
 
         // ===== STEP 2: Filter Sets by Release Date =====
         const cutoff = new Date();
-        cutoff.setFullYear(cutoff.getFullYear() - yearsBack);
+        cutoff.setFullYear(cutoff.getFullYear() - effectiveYears);
 
         const candidates = this.setList.filter((set) => {
           if (!set.releaseDate) return false;
