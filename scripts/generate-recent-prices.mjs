@@ -43,6 +43,19 @@ function main() {
     process.exit(1);
   }
 
+  // On Vercel, AllPricesToday.json may be a Git LFS pointer instead of real JSON.
+  // Detect this case and skip regeneration (we then rely on the committed AllPricesRecent.json).
+  const rawPricesForCheck = fs.readFileSync(pricesPath, 'utf8').trim();
+  if (rawPricesForCheck.startsWith('version https://git-lfs.github.com/spec/v1')) {
+    console.warn(
+      'AllPricesToday.json looks like a Git LFS pointer. Skipping generation of AllPricesRecent.json.',
+    );
+    console.warn(
+      'Make sure public/mtgjson/AllPricesRecent.json is committed so the app can use it in production.',
+    );
+    return;
+  }
+
   const now = new Date();
   const cutoff = new Date(now);
   cutoff.setFullYear(cutoff.getFullYear() - YEARS_BACK);
